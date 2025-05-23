@@ -1,0 +1,2812 @@
+2024-12-18 13:38:45,146 - INFO - ETL process started
+
+
+2024-12-18 13:38:45,147 - INFO - Creating schemas and tables
+
+
+2024-12-18 13:38:45,223 - INFO - Schemas and tables created successfully.
+
+
+2024-12-18 13:38:45,224 - INFO - Starting extraction phase
+
+
+2024-12-18 13:38:45,225 - INFO - Starting data extraction process
+
+
+2024-12-18 13:38:45,226 - INFO - Fetching data for symbol: AAPL
+
+
+2024-12-18 13:38:45,680 - INFO - Extracted 100 rows for AAPL
+
+
+2024-12-18 13:38:45,681 - INFO - Fetching data for symbol: MSFT
+
+
+2024-12-18 13:38:46,098 - INFO - Extracted 100 rows for MSFT
+
+
+2024-12-18 13:38:46,102 - INFO - Fetching data for symbol: GOOG
+
+
+2024-12-18 13:38:46,492 - INFO - Extracted 100 rows for GOOG
+
+
+2024-12-18 13:38:46,492 - INFO - Fetching data for symbol: AMZN
+
+
+2024-12-18 13:38:46,796 - INFO - Extracted 100 rows for AMZN
+
+
+2024-12-18 13:38:46,797 - INFO - Fetching data for symbol: NFLX
+
+
+2024-12-18 13:38:47,212 - INFO - Extracted 100 rows for NFLX
+
+
+2024-12-18 13:38:47,213 - INFO - Total rows extracted: 500
+
+
+2024-12-18 13:38:47,223 - INFO - Extracted data saved to extracted_stock_data.csv
+
+
+2024-12-18 13:38:47,224 - INFO - Starting transformation phase
+
+
+2024-12-18 13:38:47,246 - INFO - Data transformed to standard format
+
+
+2024-12-18 13:38:47,253 - INFO - Transformed data saved to transformed_stock_data.csv
+
+
+2024-12-18 13:38:47,255 - INFO - Starting load phase
+
+
+2024-12-18 13:38:47,255 - INFO - Starting data load process.
+
+
+2024-12-18 13:38:47,263 - ERROR - Error loading data into PostgreSQL: "None of [Index(['date', 'open', 'high', 'low', 'close', 'volume', 'symbol'], dtype='object')] are in the [columns]"
+
+
+2024-12-18 13:38:47,264 - INFO - Moving data to EDW
+
+
+2024-12-18 13:38:47,348 - INFO - Data moved to EDW table successfully.
+
+
+2024-12-18 13:38:47,349 - INFO - ETL pipeline completed successfully.
+
+
+2024-12-18 13:38:47,350 - INFO - ETL process completed
+
+
+2024-12-19 00:19:49,889 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 00:19:49,889 - INFO - Starting data load process.
+
+
+2024-12-19 00:19:49,900 - ERROR - Error loading data into PostgreSQL: "None of [Index(['date', 'open', 'high', 'low', 'close', 'volume', 'symbol'], dtype='object')] are in the [columns]"
+
+
+2024-12-19 00:19:49,976 - INFO - Data moved to EDW table successfully.
+
+
+2024-12-19 00:31:39,070 - INFO - Starting data extraction process
+
+
+2024-12-19 00:31:39,070 - INFO - Fetching data for symbol: AAPL
+
+
+2024-12-19 00:31:39,563 - INFO - Data transformed to standard format
+
+
+2024-12-19 00:31:39,563 - INFO - Extracted and transformed 100 rows for AAPL
+
+
+2024-12-19 00:31:39,563 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 00:31:51,566 - INFO - Fetching data for symbol: MSFT
+
+
+2024-12-19 00:31:52,053 - INFO - Data transformed to standard format
+
+
+2024-12-19 00:31:52,053 - INFO - Extracted and transformed 100 rows for MSFT
+
+
+2024-12-19 00:31:52,063 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 00:32:04,065 - INFO - Fetching data for symbol: GOOG
+
+
+2024-12-19 00:32:04,437 - INFO - Data transformed to standard format
+
+
+2024-12-19 00:32:04,437 - INFO - Extracted and transformed 100 rows for GOOG
+
+
+2024-12-19 00:32:04,451 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 00:32:16,452 - INFO - Fetching data for symbol: AMZN
+
+
+2024-12-19 00:32:16,851 - INFO - Data transformed to standard format
+
+
+2024-12-19 00:32:16,851 - INFO - Extracted and transformed 100 rows for AMZN
+
+
+2024-12-19 00:32:16,851 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 00:32:28,855 - INFO - Fetching data for symbol: NFLX
+
+
+2024-12-19 00:32:29,221 - INFO - Data transformed to standard format
+
+
+2024-12-19 00:32:29,237 - INFO - Extracted and transformed 100 rows for NFLX
+
+
+2024-12-19 00:32:29,237 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 00:32:41,239 - INFO - Total rows after transformation: 500
+
+
+2024-12-19 00:32:41,267 - INFO - File saved to dataset/2024-12-19\transformed_data.csv
+
+
+2024-12-19 00:35:10,526 - INFO - Starting data extraction process
+
+
+2024-12-19 00:35:10,542 - INFO - Fetching data for symbol: AAPL
+
+
+2024-12-19 00:35:11,496 - INFO - Data transformed to standard format
+
+
+2024-12-19 00:35:11,497 - INFO - Extracted and transformed 100 rows for AAPL
+
+
+2024-12-19 00:35:11,497 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 00:35:23,499 - INFO - Fetching data for symbol: MSFT
+
+
+2024-12-19 00:35:23,935 - INFO - Data transformed to standard format
+
+
+2024-12-19 00:35:23,938 - INFO - Extracted and transformed 100 rows for MSFT
+
+
+2024-12-19 00:35:23,939 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 00:35:35,941 - INFO - Fetching data for symbol: GOOG
+
+
+2024-12-19 00:35:36,335 - INFO - Data transformed to standard format
+
+
+2024-12-19 00:35:36,342 - INFO - Extracted and transformed 100 rows for GOOG
+
+
+2024-12-19 00:35:36,344 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 00:35:48,348 - INFO - Fetching data for symbol: AMZN
+
+
+2024-12-19 00:35:48,738 - INFO - Data transformed to standard format
+
+
+2024-12-19 00:35:48,740 - INFO - Extracted and transformed 100 rows for AMZN
+
+
+2024-12-19 00:35:48,742 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 00:36:00,744 - INFO - Fetching data for symbol: NFLX
+
+
+2024-12-19 00:36:01,403 - INFO - Data transformed to standard format
+
+
+2024-12-19 00:36:01,403 - INFO - Extracted and transformed 100 rows for NFLX
+
+
+2024-12-19 00:36:01,403 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 00:36:13,411 - INFO - Total rows after transformation: 500
+
+
+2024-12-19 00:36:13,424 - INFO - File saved to dataset\transformed_data.csv
+
+
+2024-12-19 00:43:00,570 - INFO - ETL process started
+
+
+2024-12-19 00:43:00,570 - INFO - Creating schemas and tables
+
+
+2024-12-19 00:43:00,636 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 00:43:00,638 - INFO - Starting extraction phase
+
+
+2024-12-19 00:43:00,638 - INFO - Starting data extraction process
+
+
+2024-12-19 00:43:00,638 - INFO - Fetching data for symbol: AAPL
+
+
+2024-12-19 00:43:01,650 - INFO - Extracted 100 rows for AAPL
+
+
+2024-12-19 00:43:01,650 - INFO - Fetching data for symbol: MSFT
+
+
+2024-12-19 00:43:02,281 - ERROR - Invalid data format for MSFT: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 00:43:02,289 - INFO - Fetching data for symbol: GOOG
+
+
+2024-12-19 00:43:02,616 - ERROR - Invalid data format for GOOG: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 00:43:02,616 - INFO - Fetching data for symbol: AMZN
+
+
+2024-12-19 00:43:02,975 - ERROR - Invalid data format for AMZN: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 00:43:02,975 - INFO - Fetching data for symbol: NFLX
+
+
+2024-12-19 00:43:03,326 - ERROR - Invalid data format for NFLX: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 00:43:03,328 - INFO - Total rows extracted: 100
+
+
+2024-12-19 00:43:03,334 - INFO - Extracted data saved to extracted_stock_data.csv
+
+
+2024-12-19 00:43:03,334 - INFO - Starting transformation phase
+
+
+2024-12-19 00:43:03,344 - INFO - Data transformed to standard format
+
+
+2024-12-19 00:43:03,348 - INFO - Transformed data saved to transformed_stock_data.csv
+
+
+2024-12-19 00:43:03,348 - INFO - Starting load phase
+
+
+2024-12-19 00:43:03,348 - INFO - Starting data load process.
+
+
+2024-12-19 00:43:03,353 - ERROR - Error loading data into PostgreSQL: "None of [Index(['date', 'open', 'high', 'low', 'close', 'volume', 'symbol'], dtype='object')] are in the [columns]"
+
+
+2024-12-19 00:43:03,353 - INFO - Moving data to EDW
+
+
+2024-12-19 00:43:03,418 - INFO - Data moved to EDW table successfully.
+
+
+2024-12-19 00:43:03,418 - INFO - ETL pipeline completed successfully.
+
+
+2024-12-19 00:43:03,418 - INFO - ETL process completed
+
+
+2024-12-19 00:59:40,946 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 00:59:40,946 - INFO - Starting data load process.
+
+
+2024-12-19 00:59:40,946 - ERROR - Transformed data file 'dataset/transformed_stock_data.csv' is missing or empty.
+
+
+2024-12-19 01:00:09,354 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 01:00:09,356 - INFO - Starting data load process.
+
+
+2024-12-19 01:00:09,356 - ERROR - Transformed data file 'dataset/transformed_stock_data.csv' is missing or empty.
+
+
+2024-12-19 01:00:44,577 - INFO - ETL process started
+
+
+2024-12-19 01:00:44,577 - INFO - Creating schemas and tables
+
+
+2024-12-19 01:00:44,664 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 01:00:44,664 - INFO - Starting extraction phase
+
+
+2024-12-19 01:00:44,664 - INFO - Starting data extraction process
+
+
+2024-12-19 01:00:44,664 - INFO - Fetching data for symbol: AAPL
+
+
+2024-12-19 01:00:44,868 - ERROR - Invalid data format for AAPL: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:00:44,871 - INFO - Fetching data for symbol: MSFT
+
+
+2024-12-19 01:00:45,030 - ERROR - Invalid data format for MSFT: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:00:45,030 - INFO - Fetching data for symbol: GOOG
+
+
+2024-12-19 01:00:45,190 - ERROR - Invalid data format for GOOG: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:00:45,192 - INFO - Fetching data for symbol: AMZN
+
+
+2024-12-19 01:00:45,339 - ERROR - Invalid data format for AMZN: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:00:45,339 - INFO - Fetching data for symbol: NFLX
+
+
+2024-12-19 01:00:45,496 - ERROR - Invalid data format for NFLX: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:00:45,496 - ERROR - No data was fetched for any symbols
+
+
+2024-12-19 01:00:45,512 - ERROR - Extraction failed. ETL process terminated.
+
+
+2024-12-19 01:00:45,513 - INFO - ETL process completed
+
+
+2024-12-19 01:02:39,705 - INFO - ETL process started
+
+
+2024-12-19 01:02:39,721 - INFO - Creating schemas and tables
+
+
+2024-12-19 01:02:39,788 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 01:02:39,790 - INFO - Starting extraction phase
+
+
+2024-12-19 01:02:39,790 - INFO - Starting data extraction process
+
+
+2024-12-19 01:02:39,790 - INFO - Fetching data for symbol: AAPL
+
+
+2024-12-19 01:02:39,979 - ERROR - Invalid data format for AAPL: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:02:39,981 - INFO - Fetching data for symbol: MSFT
+
+
+2024-12-19 01:02:40,147 - ERROR - Invalid data format for MSFT: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:02:40,147 - INFO - Fetching data for symbol: GOOG
+
+
+2024-12-19 01:02:40,301 - ERROR - Invalid data format for GOOG: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:02:40,303 - INFO - Fetching data for symbol: AMZN
+
+
+2024-12-19 01:02:40,461 - ERROR - Invalid data format for AMZN: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:02:40,461 - INFO - Fetching data for symbol: NFLX
+
+
+2024-12-19 01:02:40,679 - ERROR - Invalid data format for NFLX: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:02:40,679 - ERROR - No data was fetched for any symbols
+
+
+2024-12-19 01:02:40,679 - ERROR - Extraction failed. ETL process terminated.
+
+
+2024-12-19 01:02:40,679 - INFO - ETL process completed
+
+
+2024-12-19 01:03:03,396 - INFO - Starting data extraction process
+
+
+2024-12-19 01:03:03,396 - INFO - Fetching data for symbol: AAPL
+
+
+2024-12-19 01:03:03,828 - ERROR - Invalid data format for AAPL: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:03:03,830 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 01:03:15,833 - INFO - Fetching data for symbol: MSFT
+
+
+2024-12-19 01:03:15,983 - ERROR - Invalid data format for MSFT: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:03:15,983 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 01:03:45,790 - INFO - Starting data extraction process
+
+
+2024-12-19 01:03:45,790 - INFO - Fetching data for symbol: AAPL
+
+
+2024-12-19 01:03:46,013 - ERROR - Invalid data format for AAPL: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:03:46,013 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 01:03:58,020 - INFO - Fetching data for symbol: MSFT
+
+
+2024-12-19 01:03:58,305 - ERROR - Invalid data format for MSFT: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:03:58,305 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 01:04:10,310 - INFO - Fetching data for symbol: GOOG
+
+
+2024-12-19 01:04:10,764 - ERROR - Invalid data format for GOOG: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:04:10,766 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 01:04:22,768 - INFO - Fetching data for symbol: AMZN
+
+
+2024-12-19 01:04:22,982 - ERROR - Invalid data format for AMZN: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:04:22,982 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 01:04:34,991 - INFO - Fetching data for symbol: NFLX
+
+
+2024-12-19 01:04:35,163 - ERROR - Invalid data format for NFLX: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:04:35,163 - INFO - Waiting 12 seconds to respect API rate limits
+
+
+2024-12-19 01:04:47,165 - ERROR - No data was fetched or transformed for any symbols
+
+
+2024-12-19 01:16:42,973 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 01:16:42,973 - INFO - Starting data load process.
+
+
+2024-12-19 01:16:42,982 - ERROR - Transformed data file 'dataset/transformed_stock_data.csv' is missing or empty.
+
+
+2024-12-19 01:17:13,414 - INFO - Starting data transformation process
+
+
+2024-12-19 01:17:13,414 - INFO - Loaded data from dataset\extracted_stock_data.csv
+
+
+2024-12-19 01:17:13,430 - INFO - Data transformed to standard format
+
+
+2024-12-19 01:17:13,437 - INFO - File saved to dataset\transformed_data.csv
+
+
+2024-12-19 01:17:26,326 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 01:17:26,326 - INFO - Starting data load process.
+
+
+2024-12-19 01:17:26,334 - ERROR - Transformed data file 'dataset/transformed_stock_data.csv' is missing or empty.
+
+
+2024-12-19 01:18:49,465 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 01:18:49,465 - INFO - Starting data load process.
+
+
+2024-12-19 01:18:49,468 - ERROR - Dataset missing required columns. Found columns: ['Date', 'OpenPrice', 'High', 'Low', 'ClosePrice', 'Volume', 'Symbol']
+
+
+2024-12-19 01:18:49,468 - ERROR - Error loading data into PostgreSQL: Dataset columns mismatch. Expected: ['date', 'open', 'high', 'low', 'close', 'volume', 'symbol']
+
+
+2024-12-19 01:18:49,528 - INFO - Data moved to EDW table successfully.
+
+
+2024-12-19 01:25:48,997 - INFO - Starting data transformation process
+
+
+2024-12-19 01:25:49,002 - INFO - Loaded data from dataset\extracted_stock_data.csv
+
+
+2024-12-19 01:25:49,012 - INFO - Data transformed to standard format
+
+
+2024-12-19 01:25:49,018 - INFO - File saved to dataset\transformed_data.csv
+
+
+2024-12-19 01:25:49,112 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 01:25:49,112 - INFO - Starting data load process.
+
+
+2024-12-19 01:25:49,218 - INFO - Loaded 100 rows into the staging table.
+
+
+2024-12-19 01:25:49,300 - INFO - Data moved to EDW table successfully.
+
+
+2024-12-19 01:43:54,628 - INFO - ETL process started
+
+
+2024-12-19 01:43:54,629 - INFO - Creating schemas and tables
+
+
+2024-12-19 01:43:54,701 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 01:43:54,703 - INFO - Starting extraction phase
+
+
+2024-12-19 01:43:54,704 - INFO - Starting data extraction process
+
+
+2024-12-19 01:43:54,705 - INFO - Fetching data for symbol: AAPL
+
+
+2024-12-19 01:43:54,870 - ERROR - Invalid data format for AAPL: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:43:54,871 - INFO - Fetching data for symbol: MSFT
+
+
+2024-12-19 01:43:55,292 - ERROR - Invalid data format for MSFT: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:43:55,295 - INFO - Fetching data for symbol: GOOG
+
+
+2024-12-19 01:43:55,455 - ERROR - Invalid data format for GOOG: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:43:55,456 - INFO - Fetching data for symbol: AMZN
+
+
+2024-12-19 01:43:55,602 - ERROR - Invalid data format for AMZN: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:43:55,604 - INFO - Fetching data for symbol: NFLX
+
+
+2024-12-19 01:43:56,008 - ERROR - Invalid data format for NFLX: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 01:43:56,009 - ERROR - No data was fetched for any symbols
+
+
+2024-12-19 01:43:56,011 - ERROR - Extraction failed. ETL process terminated.
+
+
+2024-12-19 01:43:56,011 - INFO - ETL process completed
+
+
+2024-12-19 01:48:36,649 - INFO - Starting data transformation process
+
+
+2024-12-19 01:48:36,655 - INFO - Loaded data from dataset\extracted_stock_data.csv
+
+
+2024-12-19 01:48:36,661 - INFO - Data transformed to standard format
+
+
+2024-12-19 01:48:36,665 - INFO - File saved to dataset\transformed_data.csv
+
+
+2024-12-19 01:51:54,567 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 01:51:54,570 - INFO - Starting data load process.
+
+
+2024-12-19 01:51:54,683 - INFO - Loaded 100 rows into the staging table.
+
+
+2024-12-19 01:51:54,757 - INFO - Data moved to EDW table successfully.
+
+
+2024-12-19 01:58:28,191 - INFO - Latest file selected: transformed_data.csv
+
+
+2024-12-19 01:58:28,196 - INFO - Loaded transformed data from: dataset\transformed_data.csv
+
+
+2024-12-19 01:58:28,197 - INFO - Starting aggregation process with 100 rows
+
+
+2024-12-19 01:58:28,200 - ERROR - Error during aggregation: 'OpenPrice'
+
+
+2024-12-19 01:58:28,201 - ERROR - Error in the main aggregation process: 'OpenPrice'
+
+
+2024-12-19 01:58:28,299 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 01:58:28,300 - INFO - Starting data load process.
+
+
+2024-12-19 01:58:28,404 - INFO - Loaded 100 rows into the staging table.
+
+
+2024-12-19 01:58:28,494 - INFO - Data moved to EDW table successfully.
+
+
+2024-12-19 01:58:39,501 - INFO - Latest file selected: transformed_data.csv
+
+
+2024-12-19 01:58:39,506 - INFO - Loaded transformed data from: dataset\transformed_data.csv
+
+
+2024-12-19 01:58:39,507 - INFO - Starting aggregation process with 100 rows
+
+
+2024-12-19 01:58:39,509 - ERROR - Error during aggregation: 'OpenPrice'
+
+
+2024-12-19 01:58:39,510 - ERROR - Error in the main aggregation process: 'OpenPrice'
+
+
+2024-12-19 02:07:01,329 - ERROR - Error finding the latest file: [WinError 3] The system cannot find the path specified: 'dataset/cleaned_data'
+
+
+2024-12-19 02:07:01,331 - ERROR - Error in the main aggregation process: [WinError 3] The system cannot find the path specified: 'dataset/cleaned_data'
+
+
+2024-12-19 02:07:54,851 - INFO - Latest file selected: transformed_data.csv
+
+
+2024-12-19 02:07:54,857 - INFO - Loaded transformed data from: dataset\transformed_data.csv
+
+
+2024-12-19 02:07:54,858 - INFO - Starting aggregation process with 100 rows
+
+
+2024-12-19 02:07:54,862 - ERROR - Error during aggregation: 'DailyReturn'
+
+
+2024-12-19 02:07:54,864 - ERROR - Error in the main aggregation process: 'DailyReturn'
+
+
+2024-12-19 02:24:01,388 - INFO - Starting data transformation process
+
+
+2024-12-19 02:24:01,395 - INFO - Loaded data from dataset\extracted_stock_data.csv
+
+
+2024-12-19 02:24:01,419 - INFO - Data transformed to standard format, including DailyReturn column
+
+
+2024-12-19 02:24:01,425 - INFO - File saved to dataset\transformed_data.csv
+
+
+2024-12-19 02:26:27,369 - INFO - Starting data transformation process
+
+
+2024-12-19 02:26:27,375 - INFO - Loaded data from dataset\extracted_stock_data.csv
+
+
+2024-12-19 02:26:27,387 - INFO - Data transformed to standard format, including AverageDailyPrice and DailyReturn columns
+
+
+2024-12-19 02:26:27,394 - INFO - File saved to dataset\transformed_data.csv
+
+
+2024-12-19 02:42:18,995 - INFO - Starting aggregation process.
+
+
+2024-12-19 02:42:19,021 - INFO - Data aggregation completed successfully.
+
+
+2024-12-19 02:42:19,026 - INFO - Aggregated data saved to dataset/aggregated_data\aggregated_data_20241219_024219.csv
+
+
+2024-12-19 02:43:14,065 - INFO - ETL process started
+
+
+2024-12-19 02:43:14,070 - INFO - Creating schemas and tables
+
+
+2024-12-19 02:43:14,140 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 02:43:14,141 - INFO - Starting extraction phase
+
+
+2024-12-19 02:43:14,142 - INFO - Starting data extraction process
+
+
+2024-12-19 02:43:14,142 - INFO - Fetching data for symbol: AAPL
+
+
+2024-12-19 02:43:14,477 - ERROR - Invalid data format for AAPL: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 02:43:14,478 - INFO - Fetching data for symbol: MSFT
+
+
+2024-12-19 02:43:14,784 - ERROR - Invalid data format for MSFT: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 02:43:14,786 - INFO - Fetching data for symbol: GOOG
+
+
+2024-12-19 02:43:15,084 - ERROR - Invalid data format for GOOG: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 02:43:15,085 - INFO - Fetching data for symbol: AMZN
+
+
+2024-12-19 02:43:15,222 - ERROR - Invalid data format for AMZN: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 02:43:15,224 - INFO - Fetching data for symbol: NFLX
+
+
+2024-12-19 02:43:15,411 - ERROR - Invalid data format for NFLX: {'Information': 'Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits.'}
+
+
+2024-12-19 02:43:15,412 - ERROR - No data was fetched for any symbols
+
+
+2024-12-19 02:43:15,413 - ERROR - Extraction failed. ETL process terminated.
+
+
+2024-12-19 02:43:15,413 - INFO - ETL process completed
+
+
+2024-12-19 02:44:58,894 - INFO - Starting aggregation process.
+
+
+2024-12-19 02:44:58,935 - INFO - Data aggregation completed successfully.
+
+
+2024-12-19 02:44:58,940 - INFO - Aggregated data saved to dataset/aggregated_data\aggregated_data_20241219_024458.csv
+
+
+2024-12-19 02:44:59,031 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 02:44:59,032 - INFO - Starting data load process.
+
+
+2024-12-19 02:44:59,083 - INFO - Loaded 100 rows into the staging table.
+
+
+2024-12-19 02:44:59,140 - INFO - Data moved to EDW table successfully.
+
+
+2024-12-19 03:12:48,304 - INFO - Starting data transformation process
+
+
+2024-12-19 03:12:48,307 - INFO - Loaded data from dataset\extracted_stock_data.csv
+
+
+2024-12-19 03:12:48,319 - INFO - Data transformed to standard format, including MaxDate.
+
+
+2024-12-19 03:12:48,322 - INFO - File saved to dataset\transformed_data.csv
+
+
+2024-12-19 03:12:48,339 - INFO - Starting aggregation process.
+
+
+2024-12-19 03:12:48,343 - ERROR - Error during data aggregation: 'DailyReturn'
+
+
+2024-12-19 03:12:48,345 - ERROR - Aggregated data is empty. No file was saved.
+
+
+2024-12-19 03:12:48,603 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 03:12:48,605 - INFO - Starting data load process.
+
+
+2024-12-19 03:12:48,662 - ERROR - Error inserting row 0: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,663 - ERROR - Error inserting row 1: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,664 - ERROR - Error inserting row 2: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,665 - ERROR - Error inserting row 3: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,666 - ERROR - Error inserting row 4: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,667 - ERROR - Error inserting row 5: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,668 - ERROR - Error inserting row 6: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,669 - ERROR - Error inserting row 7: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,669 - ERROR - Error inserting row 8: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,670 - ERROR - Error inserting row 9: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,671 - ERROR - Error inserting row 10: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,672 - ERROR - Error inserting row 11: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,672 - ERROR - Error inserting row 12: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,673 - ERROR - Error inserting row 13: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,674 - ERROR - Error inserting row 14: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,675 - ERROR - Error inserting row 15: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,676 - ERROR - Error inserting row 16: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,677 - ERROR - Error inserting row 17: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,679 - ERROR - Error inserting row 18: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,680 - ERROR - Error inserting row 19: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,680 - ERROR - Error inserting row 20: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,681 - ERROR - Error inserting row 21: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,682 - ERROR - Error inserting row 22: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,683 - ERROR - Error inserting row 23: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,684 - ERROR - Error inserting row 24: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,684 - ERROR - Error inserting row 25: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,685 - ERROR - Error inserting row 26: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,686 - ERROR - Error inserting row 27: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,687 - ERROR - Error inserting row 28: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,689 - ERROR - Error inserting row 29: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,690 - ERROR - Error inserting row 30: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,690 - ERROR - Error inserting row 31: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,691 - ERROR - Error inserting row 32: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,692 - ERROR - Error inserting row 33: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,693 - ERROR - Error inserting row 34: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,694 - ERROR - Error inserting row 35: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,694 - ERROR - Error inserting row 36: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,695 - ERROR - Error inserting row 37: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,696 - ERROR - Error inserting row 38: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,697 - ERROR - Error inserting row 39: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,698 - ERROR - Error inserting row 40: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,699 - ERROR - Error inserting row 41: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,700 - ERROR - Error inserting row 42: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,700 - ERROR - Error inserting row 43: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,701 - ERROR - Error inserting row 44: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,702 - ERROR - Error inserting row 45: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,703 - ERROR - Error inserting row 46: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,703 - ERROR - Error inserting row 47: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,704 - ERROR - Error inserting row 48: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,705 - ERROR - Error inserting row 49: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,706 - ERROR - Error inserting row 50: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,707 - ERROR - Error inserting row 51: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,707 - ERROR - Error inserting row 52: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,708 - ERROR - Error inserting row 53: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,709 - ERROR - Error inserting row 54: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,712 - ERROR - Error inserting row 55: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,714 - ERROR - Error inserting row 56: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,714 - ERROR - Error inserting row 57: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,715 - ERROR - Error inserting row 58: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,716 - ERROR - Error inserting row 59: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,717 - ERROR - Error inserting row 60: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,717 - ERROR - Error inserting row 61: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,718 - ERROR - Error inserting row 62: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,719 - ERROR - Error inserting row 63: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,720 - ERROR - Error inserting row 64: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,721 - ERROR - Error inserting row 65: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,722 - ERROR - Error inserting row 66: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,723 - ERROR - Error inserting row 67: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,723 - ERROR - Error inserting row 68: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,724 - ERROR - Error inserting row 69: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,725 - ERROR - Error inserting row 70: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,726 - ERROR - Error inserting row 71: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,727 - ERROR - Error inserting row 72: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,728 - ERROR - Error inserting row 73: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,728 - ERROR - Error inserting row 74: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,730 - ERROR - Error inserting row 75: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,731 - ERROR - Error inserting row 76: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,732 - ERROR - Error inserting row 77: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,733 - ERROR - Error inserting row 78: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,735 - ERROR - Error inserting row 79: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,736 - ERROR - Error inserting row 80: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,737 - ERROR - Error inserting row 81: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,737 - ERROR - Error inserting row 82: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,738 - ERROR - Error inserting row 83: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,739 - ERROR - Error inserting row 84: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,746 - ERROR - Error inserting row 85: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,748 - ERROR - Error inserting row 86: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,749 - ERROR - Error inserting row 87: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,753 - ERROR - Error inserting row 88: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,755 - ERROR - Error inserting row 89: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,762 - ERROR - Error inserting row 90: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,764 - ERROR - Error inserting row 91: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,766 - ERROR - Error inserting row 92: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,768 - ERROR - Error inserting row 93: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,771 - ERROR - Error inserting row 94: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,772 - ERROR - Error inserting row 95: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,773 - ERROR - Error inserting row 96: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,774 - ERROR - Error inserting row 97: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,775 - ERROR - Error inserting row 98: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,776 - ERROR - Error inserting row 99: relation "stg.stock_data" does not exist
+LINE 2:                     INSERT INTO "stg.stock_data" (date, open...
+                                        ^
+
+
+
+2024-12-19 03:12:48,777 - INFO - Loaded 100 rows into the staging table.
+
+
+2024-12-19 03:12:48,861 - ERROR - Error moving data to EDW: relation "edw.stock_data" does not exist
+LINE 2:             INSERT INTO edw.stock_data (date, open, high, lo...
+                                ^
+
+
+
+2024-12-19 03:17:27,966 - INFO - Starting data transformation process
+
+
+2024-12-19 03:17:27,970 - INFO - Loaded data from dataset\extracted_stock_data.csv
+
+
+2024-12-19 03:17:27,975 - INFO - Data transformed to standard format, including MaxDate.
+
+
+2024-12-19 03:17:27,977 - INFO - File saved to dataset\transformed_data.csv
+
+
+2024-12-19 03:17:27,992 - INFO - Starting aggregation process.
+
+
+2024-12-19 03:17:27,996 - ERROR - Error during data aggregation: 'DailyReturn'
+
+
+2024-12-19 03:17:27,997 - ERROR - Aggregated data is empty. No file was saved.
+
+
+2024-12-19 03:17:28,048 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 03:17:28,049 - INFO - Starting data load process.
+
+
+2024-12-19 03:17:28,096 - ERROR - Error inserting row 0: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,097 - ERROR - Error inserting row 1: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,099 - ERROR - Error inserting row 2: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,100 - ERROR - Error inserting row 3: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,102 - ERROR - Error inserting row 4: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,103 - ERROR - Error inserting row 5: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,105 - ERROR - Error inserting row 6: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,106 - ERROR - Error inserting row 7: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,107 - ERROR - Error inserting row 8: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,108 - ERROR - Error inserting row 9: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,110 - ERROR - Error inserting row 10: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,112 - ERROR - Error inserting row 11: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,114 - ERROR - Error inserting row 12: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,116 - ERROR - Error inserting row 13: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,118 - ERROR - Error inserting row 14: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,120 - ERROR - Error inserting row 15: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,129 - ERROR - Error inserting row 16: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,136 - ERROR - Error inserting row 17: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,138 - ERROR - Error inserting row 18: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,139 - ERROR - Error inserting row 19: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,140 - ERROR - Error inserting row 20: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,141 - ERROR - Error inserting row 21: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,142 - ERROR - Error inserting row 22: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,144 - ERROR - Error inserting row 23: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,145 - ERROR - Error inserting row 24: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,146 - ERROR - Error inserting row 25: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,148 - ERROR - Error inserting row 26: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,149 - ERROR - Error inserting row 27: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,150 - ERROR - Error inserting row 28: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,151 - ERROR - Error inserting row 29: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,152 - ERROR - Error inserting row 30: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,153 - ERROR - Error inserting row 31: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,154 - ERROR - Error inserting row 32: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,155 - ERROR - Error inserting row 33: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,156 - ERROR - Error inserting row 34: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,157 - ERROR - Error inserting row 35: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,158 - ERROR - Error inserting row 36: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,159 - ERROR - Error inserting row 37: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,160 - ERROR - Error inserting row 38: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,160 - ERROR - Error inserting row 39: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,161 - ERROR - Error inserting row 40: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,162 - ERROR - Error inserting row 41: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,163 - ERROR - Error inserting row 42: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,164 - ERROR - Error inserting row 43: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,164 - ERROR - Error inserting row 44: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,165 - ERROR - Error inserting row 45: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,166 - ERROR - Error inserting row 46: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,167 - ERROR - Error inserting row 47: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,168 - ERROR - Error inserting row 48: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,168 - ERROR - Error inserting row 49: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,169 - ERROR - Error inserting row 50: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,170 - ERROR - Error inserting row 51: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,171 - ERROR - Error inserting row 52: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,172 - ERROR - Error inserting row 53: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,173 - ERROR - Error inserting row 54: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,174 - ERROR - Error inserting row 55: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,175 - ERROR - Error inserting row 56: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,176 - ERROR - Error inserting row 57: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,178 - ERROR - Error inserting row 58: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,178 - ERROR - Error inserting row 59: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,179 - ERROR - Error inserting row 60: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,180 - ERROR - Error inserting row 61: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,181 - ERROR - Error inserting row 62: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,181 - ERROR - Error inserting row 63: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,182 - ERROR - Error inserting row 64: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,183 - ERROR - Error inserting row 65: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,184 - ERROR - Error inserting row 66: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,185 - ERROR - Error inserting row 67: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,186 - ERROR - Error inserting row 68: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,187 - ERROR - Error inserting row 69: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,188 - ERROR - Error inserting row 70: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,189 - ERROR - Error inserting row 71: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,189 - ERROR - Error inserting row 72: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,190 - ERROR - Error inserting row 73: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,191 - ERROR - Error inserting row 74: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,192 - ERROR - Error inserting row 75: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,193 - ERROR - Error inserting row 76: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,194 - ERROR - Error inserting row 77: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,195 - ERROR - Error inserting row 78: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,195 - ERROR - Error inserting row 79: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,197 - ERROR - Error inserting row 80: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,198 - ERROR - Error inserting row 81: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,198 - ERROR - Error inserting row 82: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,200 - ERROR - Error inserting row 83: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,200 - ERROR - Error inserting row 84: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,201 - ERROR - Error inserting row 85: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,202 - ERROR - Error inserting row 86: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,204 - ERROR - Error inserting row 87: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,205 - ERROR - Error inserting row 88: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,205 - ERROR - Error inserting row 89: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,207 - ERROR - Error inserting row 90: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,208 - ERROR - Error inserting row 91: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,209 - ERROR - Error inserting row 92: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,210 - ERROR - Error inserting row 93: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,211 - ERROR - Error inserting row 94: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,212 - ERROR - Error inserting row 95: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,213 - ERROR - Error inserting row 96: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,214 - ERROR - Error inserting row 97: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,215 - ERROR - Error inserting row 98: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,216 - ERROR - Error inserting row 99: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 03:17:28,216 - INFO - Loaded 100 rows into the staging table.
+
+
+2024-12-19 03:17:28,256 - ERROR - Error moving data to EDW: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:31:02,126 - INFO - Starting aggregation process.
+
+
+2024-12-19 09:31:02,133 - ERROR - Error during data aggregation: 'DailyReturn'
+
+
+2024-12-19 09:31:02,135 - ERROR - Aggregated data is empty. No file was saved.
+
+
+2024-12-19 09:31:03,020 - INFO - Starting aggregation process.
+
+
+2024-12-19 09:31:03,026 - ERROR - Error during data aggregation: 'DailyReturn'
+
+
+2024-12-19 09:31:03,027 - ERROR - Aggregated data is empty. No file was saved.
+
+
+2024-12-19 09:42:20,042 - INFO - Starting aggregation process.
+
+
+2024-12-19 09:42:20,042 - ERROR - Missing required columns: DailyReturn, AverageDailyPrice
+
+
+2024-12-19 09:42:20,058 - ERROR - Aggregated data is empty. No file was saved.
+
+
+2024-12-19 09:42:51,129 - INFO - Starting data transformation process
+
+
+2024-12-19 09:42:51,139 - INFO - Loaded data from dataset\extracted_stock_data.csv
+
+
+2024-12-19 09:42:51,185 - INFO - Data transformed to standard format, including MaxDate.
+
+
+2024-12-19 09:42:51,196 - INFO - File saved to dataset\transformed_data.csv
+
+
+2024-12-19 09:42:51,219 - INFO - Starting aggregation process.
+
+
+2024-12-19 09:42:51,224 - ERROR - Error during data aggregation: 'DailyReturn'
+
+
+2024-12-19 09:42:51,228 - ERROR - Aggregated data is empty. No file was saved.
+
+
+2024-12-19 09:42:51,584 - INFO - Schemas and tables created successfully.
+
+
+2024-12-19 09:42:51,584 - INFO - Starting data load process.
+
+
+2024-12-19 09:42:51,672 - ERROR - Error inserting row 0: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,672 - ERROR - Error inserting row 1: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,672 - ERROR - Error inserting row 2: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,672 - ERROR - Error inserting row 3: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,684 - ERROR - Error inserting row 4: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,687 - ERROR - Error inserting row 5: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,690 - ERROR - Error inserting row 6: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,692 - ERROR - Error inserting row 7: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,693 - ERROR - Error inserting row 8: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,695 - ERROR - Error inserting row 9: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,697 - ERROR - Error inserting row 10: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,698 - ERROR - Error inserting row 11: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,701 - ERROR - Error inserting row 12: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,702 - ERROR - Error inserting row 13: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,704 - ERROR - Error inserting row 14: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,707 - ERROR - Error inserting row 15: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,708 - ERROR - Error inserting row 16: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,710 - ERROR - Error inserting row 17: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,710 - ERROR - Error inserting row 18: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,713 - ERROR - Error inserting row 19: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,716 - ERROR - Error inserting row 20: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,718 - ERROR - Error inserting row 21: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,720 - ERROR - Error inserting row 22: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,721 - ERROR - Error inserting row 23: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,723 - ERROR - Error inserting row 24: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,724 - ERROR - Error inserting row 25: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,726 - ERROR - Error inserting row 26: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,728 - ERROR - Error inserting row 27: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,728 - ERROR - Error inserting row 28: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,732 - ERROR - Error inserting row 29: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,733 - ERROR - Error inserting row 30: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,734 - ERROR - Error inserting row 31: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,736 - ERROR - Error inserting row 32: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,740 - ERROR - Error inserting row 33: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,741 - ERROR - Error inserting row 34: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,744 - ERROR - Error inserting row 35: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,744 - ERROR - Error inserting row 36: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,747 - ERROR - Error inserting row 37: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,748 - ERROR - Error inserting row 38: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,750 - ERROR - Error inserting row 39: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,752 - ERROR - Error inserting row 40: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,755 - ERROR - Error inserting row 41: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,757 - ERROR - Error inserting row 42: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,759 - ERROR - Error inserting row 43: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,761 - ERROR - Error inserting row 44: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,762 - ERROR - Error inserting row 45: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,762 - ERROR - Error inserting row 46: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,766 - ERROR - Error inserting row 47: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,767 - ERROR - Error inserting row 48: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,769 - ERROR - Error inserting row 49: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,770 - ERROR - Error inserting row 50: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,772 - ERROR - Error inserting row 51: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,774 - ERROR - Error inserting row 52: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,776 - ERROR - Error inserting row 53: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,777 - ERROR - Error inserting row 54: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,779 - ERROR - Error inserting row 55: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,780 - ERROR - Error inserting row 56: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,783 - ERROR - Error inserting row 57: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,784 - ERROR - Error inserting row 58: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,786 - ERROR - Error inserting row 59: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,787 - ERROR - Error inserting row 60: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,790 - ERROR - Error inserting row 61: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,791 - ERROR - Error inserting row 62: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,792 - ERROR - Error inserting row 63: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,795 - ERROR - Error inserting row 64: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,796 - ERROR - Error inserting row 65: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,796 - ERROR - Error inserting row 66: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,799 - ERROR - Error inserting row 67: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,801 - ERROR - Error inserting row 68: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,801 - ERROR - Error inserting row 69: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,803 - ERROR - Error inserting row 70: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,806 - ERROR - Error inserting row 71: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,808 - ERROR - Error inserting row 72: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,809 - ERROR - Error inserting row 73: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,810 - ERROR - Error inserting row 74: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,812 - ERROR - Error inserting row 75: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,814 - ERROR - Error inserting row 76: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,815 - ERROR - Error inserting row 77: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,817 - ERROR - Error inserting row 78: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,819 - ERROR - Error inserting row 79: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,820 - ERROR - Error inserting row 80: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,822 - ERROR - Error inserting row 81: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,824 - ERROR - Error inserting row 82: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,825 - ERROR - Error inserting row 83: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,827 - ERROR - Error inserting row 84: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,828 - ERROR - Error inserting row 85: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,830 - ERROR - Error inserting row 86: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,831 - ERROR - Error inserting row 87: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,833 - ERROR - Error inserting row 88: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,833 - ERROR - Error inserting row 89: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,836 - ERROR - Error inserting row 90: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,839 - ERROR - Error inserting row 91: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,840 - ERROR - Error inserting row 92: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,843 - ERROR - Error inserting row 93: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,845 - ERROR - Error inserting row 94: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,846 - ERROR - Error inserting row 95: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,847 - ERROR - Error inserting row 96: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,849 - ERROR - Error inserting row 97: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,850 - ERROR - Error inserting row 98: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,853 - ERROR - Error inserting row 99: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 09:42:51,854 - INFO - Loaded 100 rows into the staging table.
+
+
+2024-12-19 09:42:51,917 - ERROR - Error moving data to EDW: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+
+
+2024-12-19 10:05:17,506 - INFO - Starting data transformation process
+
+
+2024-12-19 10:05:17,517 - INFO - Loaded data from dataset\extracted_stock_data.csv
+
+
+2024-12-19 10:05:17,540 - INFO - Data transformed to standard format, including DailyReturn
+
+
+2024-12-19 10:05:17,551 - INFO - File saved to dataset\transformed_stock_data.csv
+
+
+2024-12-19 10:06:46,286 - INFO - Starting data transformation process
+
+
+2024-12-19 10:06:46,294 - INFO - Loaded data from dataset\extracted_stock_data.csv
+
+
+2024-12-19 10:06:46,303 - INFO - Data transformed to standard format, including DailyReturn
+
+
+2024-12-19 10:06:46,311 - INFO - File saved to dataset\transformed_stock_data.csv
+
+
+2024-12-19 10:09:04,816 - INFO - Starting data transformation process
+
+
+2024-12-19 10:09:04,829 - INFO - Loaded data from dataset\extracted_stock_data.csv
+
+
+2024-12-19 10:09:04,839 - INFO - Data transformed to standard format, including DailyReturn
+
+
+2024-12-19 10:09:04,845 - INFO - File saved to dataset\transformed_data.csv
+
+
+2024-12-19 10:24:09,986 - INFO - Starting data transformation process
+
+
+2024-12-19 10:24:09,996 - INFO - Loaded data from dataset\extracted_stock_data.csv
+
+
+2024-12-19 10:24:09,996 - INFO - Data transformed to standard format, including DailyReturn
+
+
+2024-12-19 10:24:10,008 - INFO - File saved to dataset\transformed_data.csv
+
+
+2024-12-19 10:24:10,029 - INFO - Starting aggregation process.
+
+
+2024-12-19 10:24:10,032 - ERROR - Error during data aggregation: 'symbol'
+
+
+2024-12-19 10:24:10,032 - ERROR - Aggregated data is empty. No file was saved.
+
+
+2024-12-19 10:24:10,118 - INFO - Schemas and tables created successfully with required constraints.
+
+
+2024-12-19 10:24:10,129 - INFO - Starting data load process.
+
+
+2024-12-19 10:24:10,185 - INFO - Data moved to EDW table successfully.
+
+
+2024-12-19 10:28:05,298 - INFO - ETL process started
+
+
+2024-12-19 10:28:05,298 - INFO - Creating schemas and tables
+
+
+2024-12-19 10:28:05,372 - INFO - Schemas and tables created successfully with required constraints.
+
+
+2024-12-19 10:28:05,372 - INFO - Starting extraction phase
+
+
+2024-12-19 10:28:05,372 - INFO - Starting data extraction process
+
+
+2024-12-19 10:28:05,372 - INFO - Fetching data for symbol: AAPL
+
+
+2024-12-19 10:28:05,866 - INFO - Extracted 100 rows for AAPL
+
+
+2024-12-19 10:28:05,869 - INFO - Fetching data for symbol: MSFT
+
+
+2024-12-19 10:28:06,221 - INFO - Extracted 100 rows for MSFT
+
+
+2024-12-19 10:28:06,222 - INFO - Fetching data for symbol: GOOG
+
+
+2024-12-19 10:28:06,497 - INFO - Extracted 100 rows for GOOG
+
+
+2024-12-19 10:28:06,497 - INFO - Fetching data for symbol: AMZN
+
+
+2024-12-19 10:28:06,833 - INFO - Extracted 100 rows for AMZN
+
+
+2024-12-19 10:28:06,834 - INFO - Fetching data for symbol: NFLX
+
+
+2024-12-19 10:28:07,243 - INFO - Extracted 100 rows for NFLX
+
+
+2024-12-19 10:28:07,248 - INFO - Total rows extracted: 500
+
+
+2024-12-19 10:28:07,248 - INFO - Aggregated data saved to dataset\extracted_stock_data_20241219_102807.csv
+
+
+2024-12-19 10:28:07,248 - INFO - Starting transformation phase
+
+
+2024-12-19 10:28:07,269 - INFO - Data transformed to standard format, including DailyReturn
+
+
+2024-12-19 10:28:07,277 - INFO - Aggregated data saved to dataset\transformed_data_20241219_102807.csv
+
+
+2024-12-19 10:28:07,277 - INFO - Starting load phase
+
+
+2024-12-19 10:28:07,277 - INFO - Starting data load process.
+
+
+2024-12-19 10:28:07,279 - INFO - Moving data to EDW
+
+
+2024-12-19 10:28:07,337 - INFO - Data moved to EDW table successfully.
+
+
+2024-12-19 10:28:07,337 - INFO - Starting aggregation phase
+
+
+2024-12-19 10:28:07,340 - ERROR - Error during data aggregation: 'symbol'
+
+
+2024-12-19 10:28:07,340 - ERROR - Aggregation failed. No aggregated data produced.
+
+
+2024-12-19 10:28:07,340 - INFO - ETL pipeline completed successfully.
+
+
+2024-12-19 10:28:07,342 - INFO - ETL process completed
+
+
+2024-12-19 10:28:09,124 - INFO - ETL process started
+
+
+2024-12-19 10:28:09,126 - INFO - Creating schemas and tables
+
+
+2024-12-19 10:28:09,203 - INFO - Schemas and tables created successfully with required constraints.
+
+
+2024-12-19 10:28:09,203 - INFO - Starting extraction phase
+
+
+2024-12-19 10:28:09,203 - INFO - Starting data extraction process
+
+
+2024-12-19 10:28:09,203 - INFO - Fetching data for symbol: AAPL
+
+
+2024-12-19 10:28:09,495 - INFO - Extracted 100 rows for AAPL
+
+
+2024-12-19 10:28:09,495 - INFO - Fetching data for symbol: MSFT
+
+
+2024-12-19 10:28:09,903 - INFO - Extracted 100 rows for MSFT
+
+
+2024-12-19 10:28:09,903 - INFO - Fetching data for symbol: GOOG
+
+
+2024-12-19 10:28:10,418 - INFO - Extracted 100 rows for GOOG
+
+
+2024-12-19 10:28:10,420 - INFO - Fetching data for symbol: AMZN
+
+
+2024-12-19 10:28:10,844 - INFO - Extracted 100 rows for AMZN
+
+
+2024-12-19 10:28:10,844 - INFO - Fetching data for symbol: NFLX
+
+
+2024-12-19 10:28:11,135 - INFO - Extracted 100 rows for NFLX
+
+
+2024-12-19 10:28:11,135 - INFO - Total rows extracted: 500
+
+
+2024-12-19 10:28:11,135 - INFO - Aggregated data saved to dataset\extracted_stock_data_20241219_102811.csv
+
+
+2024-12-19 10:28:11,135 - INFO - Starting transformation phase
+
+
+2024-12-19 10:28:11,159 - INFO - Data transformed to standard format, including DailyReturn
+
+
+2024-12-19 10:28:11,164 - INFO - Aggregated data saved to dataset\transformed_data_20241219_102811.csv
+
+
+2024-12-19 10:28:11,164 - INFO - Starting load phase
+
+
+2024-12-19 10:28:11,164 - INFO - Starting data load process.
+
+
+2024-12-19 10:28:11,164 - INFO - Moving data to EDW
+
+
+2024-12-19 10:28:11,252 - INFO - Data moved to EDW table successfully.
+
+
+2024-12-19 10:28:11,252 - INFO - Starting aggregation phase
+
+
+2024-12-19 10:28:11,252 - ERROR - Error during data aggregation: 'symbol'
+
+
+2024-12-19 10:28:11,252 - ERROR - Aggregation failed. No aggregated data produced.
+
+
+2024-12-19 10:28:11,252 - INFO - ETL pipeline completed successfully.
+
+
+2024-12-19 10:28:11,252 - INFO - ETL process completed
+
+
+2024-12-19 10:45:22,711 - INFO - Transformed data saved to transformed_data.csv
+
+
+2024-12-19 10:49:29,606 - INFO - Transformed data saved to transformed_data.csv
+
+
+2024-12-19 10:49:29,622 - INFO - Aggregated data saved to aggregated_data.csv
+
+
+2024-12-19 10:53:54,073 - ERROR - Raw data file extracted_stock_data.csv not found.
+
+
+2024-12-19 10:53:54,089 - ERROR - Transformed data file transformed_data.csv not found.
+
+
+2024-12-19 10:55:32,097 - ERROR - Raw data file extracted_stock_data.csv not found.
+
+
+2024-12-19 10:55:32,097 - ERROR - Transformed data file transformed_data.csv not found.
+
+
+2024-12-19 10:57:31,972 - ERROR - Raw data file extracted_stock_data.csv not found.
+
+
+2024-12-19 10:57:31,989 - ERROR - Error during aggregation: 'DailyReturn'
+
+
+2024-12-19 10:58:18,225 - ERROR - Raw data file extracted_stock_data.csv not found.
+
+
+2024-12-19 10:58:18,225 - ERROR - Error during aggregation: 'DailyReturn'
+
+
+2024-12-19 11:00:49,002 - INFO - ETL process started
+
+
+2024-12-19 11:00:49,002 - INFO - Creating schemas and tables
+
+
+2024-12-19 11:00:49,082 - INFO - Schemas and tables created successfully with required constraints.
+
+
+2024-12-19 11:00:49,087 - INFO - Starting extraction phase
+
+
+2024-12-19 11:00:49,087 - INFO - Starting data extraction process
+
+
+2024-12-19 11:00:49,093 - INFO - Fetching data for symbol: AAPL
+
+
+2024-12-19 11:00:49,413 - INFO - Extracted 100 rows for AAPL
+
+
+2024-12-19 11:00:49,415 - INFO - Fetching data for symbol: MSFT
+
+
+2024-12-19 11:00:49,834 - INFO - Extracted 100 rows for MSFT
+
+
+2024-12-19 11:00:49,834 - INFO - Fetching data for symbol: GOOG
+
+
+2024-12-19 11:00:50,103 - INFO - Extracted 100 rows for GOOG
+
+
+2024-12-19 11:00:50,109 - INFO - Fetching data for symbol: AMZN
+
+
+2024-12-19 11:00:50,561 - INFO - Extracted 100 rows for AMZN
+
+
+2024-12-19 11:00:50,561 - INFO - Fetching data for symbol: NFLX
+
+
+2024-12-19 11:00:50,866 - INFO - Extracted 100 rows for NFLX
+
+
+2024-12-19 11:00:50,866 - INFO - Total rows extracted: 500
+
+
+2024-12-19 11:00:50,887 - INFO - Aggregated data saved to dataset\extracted_stock_data_20241219_110050.csv
+
+
+2024-12-19 11:00:50,887 - INFO - Starting transformation phase
+
+
+2024-12-19 11:00:50,901 - INFO - Data transformed to standard format, including DailyReturn
+
+
+2024-12-19 11:00:50,913 - INFO - Aggregated data saved to dataset\transformed_data_20241219_110050.csv
+
+
+2024-12-19 11:00:50,914 - INFO - Starting load phase
+
+
+2024-12-19 11:00:50,916 - INFO - Starting data load process.
+
+
+2024-12-19 11:00:50,918 - INFO - Moving data to EDW
+
+
+2024-12-19 11:00:50,991 - INFO - Data moved to EDW table successfully.
+
+
+2024-12-19 11:00:50,991 - INFO - Starting aggregation phase
+
+
+2024-12-19 11:00:50,991 - ERROR - Error during data aggregation: 'symbol'
+
+
+2024-12-19 11:00:50,991 - ERROR - Aggregation failed. No aggregated data produced.
+
+
+2024-12-19 11:00:50,991 - INFO - ETL pipeline completed successfully.
+
+
+2024-12-19 11:00:50,991 - INFO - ETL process completed
+
+
+2024-12-19 11:16:44,032 - INFO - ETL process started
+
+
+2024-12-19 11:16:44,040 - INFO - Creating schemas and tables
+
+
+2024-12-19 11:16:44,118 - INFO - Schemas and tables created successfully with required constraints.
+
+
+2024-12-19 11:16:44,118 - INFO - Starting extraction phase
+
+
+2024-12-19 11:16:44,118 - INFO - Starting data extraction process
+
+
+2024-12-19 11:16:44,121 - INFO - Fetching data for symbol: AAPL
+
+
+2024-12-19 11:16:44,632 - INFO - Extracted 100 rows for AAPL
+
+
+2024-12-19 11:16:44,632 - INFO - Fetching data for symbol: MSFT
+
+
+2024-12-19 11:16:44,899 - INFO - Extracted 100 rows for MSFT
+
+
+2024-12-19 11:16:44,901 - INFO - Fetching data for symbol: GOOG
+
+
+2024-12-19 11:16:45,245 - INFO - Extracted 100 rows for GOOG
+
+
+2024-12-19 11:16:45,246 - INFO - Fetching data for symbol: AMZN
+
+
+2024-12-19 11:16:45,552 - INFO - Extracted 100 rows for AMZN
+
+
+2024-12-19 11:16:45,554 - INFO - Fetching data for symbol: NFLX
+
+
+2024-12-19 11:16:46,062 - INFO - Extracted 100 rows for NFLX
+
+
+2024-12-19 11:16:46,062 - INFO - Total rows extracted: 500
+
+
+2024-12-19 11:16:46,074 - INFO - Aggregated data saved to dataset\extracted_stock_data_20241219_111646.csv
+
+
+2024-12-19 11:16:46,074 - INFO - Starting transformation phase
+
+
+2024-12-19 11:16:46,085 - INFO - Data transformed to standard format, including DailyReturn
+
+
+2024-12-19 11:16:46,095 - INFO - Aggregated data saved to dataset\transformed_data_20241219_111646.csv
+
+
+2024-12-19 11:16:46,096 - INFO - Starting load phase
+
+
+2024-12-19 11:16:46,096 - INFO - Starting data load process.
+
+
+2024-12-19 11:16:46,097 - INFO - Moving data to EDW
+
+
+2024-12-19 11:16:46,184 - INFO - Data moved to EDW table successfully.
+
+
+2024-12-19 11:16:46,186 - INFO - Starting aggregation phase
+
+
+2024-12-19 11:16:46,186 - INFO - Available columns in data: ['Date', 'OpenPrice', 'High', 'Low', 'ClosePrice', 'Volume', 'Symbol', 'DailyReturn']
+
+
+2024-12-19 11:16:46,207 - INFO - Data aggregation completed successfully.
+
+
+2024-12-19 11:16:46,211 - INFO - Aggregated data saved to dataset\aggregated_data_20241219_111646.csv
+
+
+2024-12-19 11:16:46,211 - INFO - Aggregated data saved to: dataset\aggregated_data_20241219_111646.csv
+
+
+2024-12-19 11:16:46,211 - INFO - ETL pipeline completed successfully.
+
+
+2024-12-19 11:16:46,211 - INFO - ETL process completed
+
+
